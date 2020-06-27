@@ -15,7 +15,7 @@ Programming Concepts:
 - Custom stack used for maze solving algorithm
 - Pointers
 
-===============================================                           PROJECT RUBRIC                           ===============================================
+===================              PROJECT RUBRIC              ===================
 
 Description: Your task is to create a game that requires the user to navigate a maze and interact with objects and other beings inside the maze.
 The game should end when either the user’s character dies or the character reaches the exit of the maze.
