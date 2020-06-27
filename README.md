@@ -15,7 +15,7 @@ Programming Concepts:
 - Custom stack used for maze solving algorithm
 - Pointers
 
-===================              PROJECT RUBRIC              ===================
+==============================              PROJECT RUBRIC              ==============================
 
 Description: Your task is to create a game that requires the user to navigate a maze and interact with objects and other beings inside the maze.
 The game should end when either the user’s character dies or the character reaches the exit of the maze.
@@ -57,5 +57,5 @@ Programming Requirements:
 Other Requirements:
 1.	You should comment your code.
 2.	Your program must use proper programming style (see rubric).
-3.	Your code should be reasonably efficient. 
+3.	Your code should be reasonably efficient.
 ie: If your program repeats code unnecessarily, if a function would be more appropriate, or if variables are duplicated rather than passed to functions, this does not represent Level 4 efficiency.
