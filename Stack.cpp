@@ -6,6 +6,11 @@ Stack::Stack() //ctor
     stackSize = 0;
 }
 
+Stack::~Stack()
+{
+    // dtor
+}
+
 void Stack::display()
 {
     Element *currentIndex = new Element;
@@ -45,7 +50,7 @@ void Stack::pop()
         temp = top;
         top = top->getNext();
         temp->setNext(nullptr);
-        delete temp;
+        delete temp; // delete to prevent memory leak
         stackSize--;
     }
     return;
