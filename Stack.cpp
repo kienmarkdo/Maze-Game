@@ -43,8 +43,9 @@ void Stack::pop()
     {
         Element *temp = new Element;
         temp = top;
-        top = top->getNext(); // memory leak
+        top = top->getNext();
         temp->setNext(nullptr);
+        delete temp;
         stackSize--;
     }
     return;
