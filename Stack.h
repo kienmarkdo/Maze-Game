@@ -12,6 +12,7 @@ class Stack
 {
     public:
         Stack();
+        virtual ~Stack();
 
         void display();
         void push(char);
