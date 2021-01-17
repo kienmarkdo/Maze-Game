@@ -2,6 +2,8 @@
 
 SUMMARY OF MAZE GAME PROJECT (for detailed rubric, see "Project Rubric" below)
 
+View the demo here: https://youtu.be/2or2jxcLI3Y
+
 Functionality:
 - A maze game with user navigation, user interaction with objects and monsters.
 - Contains a custom, self-made Depth-First Search (DFS) algorithm that automatically determines the solution to the maze.
